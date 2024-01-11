@@ -26,7 +26,7 @@
 // @match https://audiobookbay.cc/*
 // @match http://audiobookbay.cc/*
 // @match https://audiobookbay.la/*
-// @match http/audiobookbay.la/*
+// @match http://audiobookbay.la/*
 // @match https://audiobookbay.unblockit.lat/*
 // @match http://audiobookbay.unblockit.lat/*
 // ==/UserScript==

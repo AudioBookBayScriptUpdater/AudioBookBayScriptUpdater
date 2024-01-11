@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name AudioBookBay hide category: True Crime
-// @description Hide True Crime category
+// @name AudioBookBay hide category: LitRPG
+// @description Hide LitRPG category
 // @author AudioBookBay_ScriptUpdater
 // @version 0.1
 // @license CC0
@@ -18,12 +18,12 @@
 // @match https://theaudiobookbay.me/*
 // @match http://theaudiobookbay.me/*
 // @match https://audiobookbayabb.com/*
-// @match http://audiobookbayabb.com/*
+// @match http/audiobookbayabb.com/*
 // @match https://audiobookbay.se/*
 // @match http://audiobookbay.se/*
 // @match https://audiobookbay.biz/*
 // @match http://audiobookbay.biz/*
-// @match https/audiobookbay.cc/*
+// @match https://audiobookbay.cc/*
 // @match http://audiobookbay.cc/*
 // @match https://audiobookbay.la/*
 // @match http://audiobookbay.la/*
@@ -33,6 +33,6 @@
 
 // Wait for the document to be ready
 $(document).ready(function() {
-    // Hide posts containing the exact phrase 'True Crime'
-    $(".post").has(".postInfo:contains('True Crime')").hide();
+    // Hide posts containing the exact phrase 'LitRPG'
+    $(".post").has(".postInfo:contains('LitRPG')").hide();
 });

@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name AudioBookBay hide category: True Crime
-// @description Hide True Crime category
+// @name AudioBookBay hide category: Other
+// @description Hide Other category
 // @author AudioBookBay_ScriptUpdater
 // @version 0.1
 // @license CC0
@@ -23,7 +23,7 @@
 // @match http://audiobookbay.se/*
 // @match https://audiobookbay.biz/*
 // @match http://audiobookbay.biz/*
-// @match https/audiobookbay.cc/*
+// @match https://audiobookbay.cc/*
 // @match http://audiobookbay.cc/*
 // @match https://audiobookbay.la/*
 // @match http://audiobookbay.la/*
@@ -33,6 +33,6 @@
 
 // Wait for the document to be ready
 $(document).ready(function() {
-    // Hide posts containing the exact phrase 'True Crime'
-    $(".post").has(".postInfo:contains('True Crime')").hide();
+    // Hide posts containing the exact phrase 'Other'
+    $(".post").has(".postInfo:contains('Other')").hide();
 });

@@ -33,6 +33,6 @@
 
 // Wait for the document to be ready
 $(document).ready(function() {
-    // Hide posts containing the word 'Sports'
-    $(".post").has(".postInfo:contains('Sports')").hide();
+    // Hide posts containing the word 'Sport & Recreation'
+    $(".post").has(".postInfo:contains('Sport & Recreation')").hide();
 });

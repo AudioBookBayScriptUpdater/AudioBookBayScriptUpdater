@@ -23,7 +23,7 @@
 // @match http://audiobookbay.se/*
 // @match https://audiobookbay.biz/*
 // @match http://audiobookbay.biz/*
-// @match https/audiobookbay.cc/*
+// @match https://audiobookbay.cc/*
 // @match http://audiobookbay.cc/*
 // @match https://audiobookbay.la/*
 // @match http://audiobookbay.la/*

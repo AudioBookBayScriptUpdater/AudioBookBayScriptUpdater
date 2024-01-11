@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name AudioBookBay hide category: Art
-// @description Hide Art category
+// @name AudioBookBay hide category: Romance
+// @description Hide Romance category
 // @author AudioBookBay_ScriptUpdater
 // @version 0.1
 // @license CC0
@@ -26,13 +26,13 @@
 // @match https://audiobookbay.cc/*
 // @match http://audiobookbay.cc/*
 // @match https://audiobookbay.la/*
-// @match http://audiobookbay.la/*
+// @match http/audiobookbay.la/*
 // @match https://audiobookbay.unblockit.lat/*
 // @match http://audiobookbay.unblockit.lat/*
 // ==/UserScript==
 
 // Wait for the document to be ready
 $(document).ready(function() {
-    // Hide posts containing the word 'Art'
-    $(".post").has(".postInfo:contains('Art')").hide();
+    // Hide posts containing the word 'Romance'
+    $(".post").has(".postInfo:contains('Romance')").hide();
 });

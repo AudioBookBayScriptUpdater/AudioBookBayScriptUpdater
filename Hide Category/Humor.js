@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name AudioBookBay hide category: Art
-// @description Hide Art category
+// @name AudioBookBay hide category: Humor
+// @description Hide Humor category
 // @author AudioBookBay_ScriptUpdater
 // @version 0.1
 // @license CC0
@@ -33,6 +33,6 @@
 
 // Wait for the document to be ready
 $(document).ready(function() {
-    // Hide posts containing the word 'Art'
-    $(".post").has(".postInfo:contains('Art')").hide();
+    // Hide posts containing the word 'Humor'
+    $(".post").has(".postInfo:contains('Humor')").hide();
 });

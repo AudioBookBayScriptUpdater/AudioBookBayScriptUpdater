@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name AudioBookBay hide category: Art
-// @description Hide Art category
+// @name AudioBookBay hide category: Contemporary
+// @description Hide Contemporary category
 // @author AudioBookBay_ScriptUpdater
 // @version 0.1
 // @license CC0
@@ -19,7 +19,7 @@
 // @match http://theaudiobookbay.me/*
 // @match https://audiobookbayabb.com/*
 // @match http://audiobookbayabb.com/*
-// @match https://audiobookbay.se/*
+// @match https/audiobookbay.se/*
 // @match http://audiobookbay.se/*
 // @match https://audiobookbay.biz/*
 // @match http://audiobookbay.biz/*
@@ -33,6 +33,6 @@
 
 // Wait for the document to be ready
 $(document).ready(function() {
-    // Hide posts containing the word 'Art'
-    $(".post").has(".postInfo:contains('Art')").hide();
+    // Hide posts containing the word 'Contemporary'
+    $(".post").has(".postInfo:contains('Contemporary')").hide();
 });

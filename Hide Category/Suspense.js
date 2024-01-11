@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name AudioBookBay hide category: Art
-// @description Hide Art category
+// @name AudioBookBay hide category: Suspense
+// @description Hide Suspense category
 // @author AudioBookBay_ScriptUpdater
 // @version 0.1
 // @license CC0
@@ -17,7 +17,7 @@
 // @match http://audiobookbay.is/*
 // @match https://theaudiobookbay.me/*
 // @match http://theaudiobookbay.me/*
-// @match https://audiobookbayabb.com/*
+// @match https/audiobookbayabb.com/*
 // @match http://audiobookbayabb.com/*
 // @match https://audiobookbay.se/*
 // @match http://audiobookbay.se/*
@@ -33,6 +33,6 @@
 
 // Wait for the document to be ready
 $(document).ready(function() {
-    // Hide posts containing the word 'Art'
-    $(".post").has(".postInfo:contains('Art')").hide();
+    // Hide posts containing the word 'Suspense'
+    $(".post").has(".postInfo:contains('Suspense')").hide();
 });

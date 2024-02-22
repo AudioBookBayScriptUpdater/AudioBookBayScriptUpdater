@@ -2,7 +2,7 @@
 // @name AudioBookBay hide category: Contemporary
 // @description Hide Contemporary category
 // @author AudioBookBay_ScriptUpdater
-// @version 0.1
+// @version 0.3
 // @license CC0
 // @namespace https://greasyfork.org/en/users/1246393-audiobookbay-scriptupdater
 // @require https://code.jquery.com/jquery-3.6.4.min.js
@@ -19,7 +19,7 @@
 // @match http://theaudiobookbay.me/*
 // @match https://audiobookbayabb.com/*
 // @match http://audiobookbayabb.com/*
-// @match https/audiobookbay.se/*
+// @match https://audiobookbay.se/*
 // @match http://audiobookbay.se/*
 // @match https://audiobookbay.biz/*
 // @match http://audiobookbay.biz/*
@@ -29,6 +29,8 @@
 // @match http://audiobookbay.la/*
 // @match https://audiobookbay.unblockit.lat/*
 // @match http://audiobookbay.unblockit.lat/*
+// @match https://audiobookbay.lu/*
+// @match http://audiobookbay.lu/*
 // ==/UserScript==
 
 // Wait for the document to be ready

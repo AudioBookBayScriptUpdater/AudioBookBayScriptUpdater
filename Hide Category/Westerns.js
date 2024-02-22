@@ -29,6 +29,8 @@
 // @match http://audiobookbay.la/*
 // @match https://audiobookbay.unblockit.lat/*
 // @match http://audiobookbay.unblockit.lat/*
+// @match https://audiobookbay.lu/*
+// @match http://audiobookbay.lu/*
 // @downloadURL https://update.greasyfork.org/scripts/484566/AudioBookBay%20hide%20category%3A%20Westerns.user.js
 // @updateURL https://update.greasyfork.org/scripts/484566/AudioBookBay%20hide%20category%3A%20Westerns.meta.js
 // ==/UserScript==

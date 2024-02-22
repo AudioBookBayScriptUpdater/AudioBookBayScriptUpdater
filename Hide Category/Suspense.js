@@ -17,7 +17,7 @@
 // @match http://audiobookbay.is/*
 // @match https://theaudiobookbay.me/*
 // @match http://theaudiobookbay.me/*
-// @match https/audiobookbayabb.com/*
+// @match https://audiobookbayabb.com/*
 // @match http://audiobookbayabb.com/*
 // @match https://audiobookbay.se/*
 // @match http://audiobookbay.se/*
@@ -29,6 +29,8 @@
 // @match http://audiobookbay.la/*
 // @match https://audiobookbay.unblockit.lat/*
 // @match http://audiobookbay.unblockit.lat/*
+// @match https://audiobookbay.lu/*
+// @match http://audiobookbay.lu/*
 // ==/UserScript==
 
 // Wait for the document to be ready

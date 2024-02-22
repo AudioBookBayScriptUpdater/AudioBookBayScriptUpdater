@@ -2,7 +2,7 @@
 // @name AudioBookBay hide category: Sport & Recreation
 // @description Hide Sport & Recreation category
 // @author AudioBookBay_ScriptUpdater
-// @version 0.3
+// @version 0.1
 // @license CC0
 // @namespace https://greasyfork.org/en/users/1246393-audiobookbay-scriptupdater
 // @require https://code.jquery.com/jquery-3.6.4.min.js
@@ -33,6 +33,6 @@
 
 // Wait for the document to be ready
 $(document).ready(function() {
-    // Hide posts containing the word 'Sport & Recreation'
-    $(".post").has(".postInfo:contains('Sport & Recreation')").hide();
+    // Hide posts containing the word 'Sports'
+    $(".post").has(".postInfo:contains('Sports')").hide();
 });

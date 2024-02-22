@@ -2,7 +2,7 @@
 // @name AudioBookBay hide category: (Post)apocalyptic
 // @description Hide (Post)apocalyptic category
 // @author AudioBookBay_ScriptUpdater
-// @version 0.1
+// @version 0.3
 // @license CC0
 // @namespace https://greasyfork.org/en/users/1246393-audiobookbay-scriptupdater
 // @require https://code.jquery.com/jquery-3.6.4.min.js
